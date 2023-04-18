@@ -10,6 +10,6 @@ public class Main {
         System.out.println("2.День недели: " + localDateTime.getDayOfWeek());
         System.out.println("3.День в году: " + localDateTime.getDayOfYear());
         System.out.println("4.Неделя месяца: " + localDateTime.get(WeekFields.ISO.weekOfMonth()));
-        System.out.println("5.Месяц: " + localDateTime.getMonth());
+        System.out.println("5.Месяц: " + localDateTime.getMonth().getValue());
     }
     }
